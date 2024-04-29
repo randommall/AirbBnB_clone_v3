@@ -93,4 +93,4 @@ class FileStorage:
                 return occurrence
         if not cls:
             occurrence = len(self.all())
-            return occurrence
+        return occurrence
